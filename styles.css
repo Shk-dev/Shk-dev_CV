@@ -114,7 +114,8 @@ code {
 .brand__name {
   font-weight: 700;
   color: rgba(232, 234, 240, .92);
-  letter-spacing: .01em
+  letter-spacing: .01em;
+  font-size: 18px;
 }
 
 .navlinks {
@@ -300,7 +301,9 @@ h1 {
 .section__head {
   margin-bottom: 16px
 }
-
+#summary{
+  margin: 0;
+}
 h2 {
   font-size: 22px;
   margin: 0 0 8px;
@@ -454,14 +457,15 @@ h2 {
 
 .quote__text {
   margin: 0 0 6px;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
   color: rgba(232, 234, 240, .92);
 }
 
 .quote__note {
   margin: 0;
   color: rgba(167, 173, 189, .95);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .skills {
@@ -659,7 +663,7 @@ h2 {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(120% 100% at 50% 0%, rgba(0, 0, 0, .1), rgba(0, 0, 0, .35)), linear-gradient(to bottom, rgba(11, 12, 16, .1), rgba(11, 12, 16, .35));
+  background: radial-gradient(120% 100% at 50% 0%, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), linear-gradient(to bottom, rgba(11, 12, 16, .1), rgba(11, 12, 16, .3));
   pointer-events: none;
 }
 
