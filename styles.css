@@ -813,3 +813,57 @@ head {
     line-height: 1.6;
   }
 }
+
+@media (hover: hover) {
+  .tile,
+  .case,
+  .step,
+  .card,
+  .pill,
+  .contact-card {
+    transition:
+      transform .25s ease,
+      background-color .25s ease,
+      border-color .25s ease,
+      box-shadow .25s ease;
+  }
+
+  .tile:hover,
+  .case:hover,
+  .step:hover,
+  .card:hover,
+  .pill:hover,
+  .contact-card:hover {
+    transform: translateY(-2px);
+    background-color: rgba(255,255,255,.055);
+    border-color: rgba(122,162,255,.35);
+    box-shadow: 0 18px 48px rgba(0,0,0,.45);
+  }
+}
+@media (hover: hover) {
+  .case:hover .tag {
+    border-color: rgba(139,255,207,.55);
+    color: rgba(232,234,240,.95);
+  }
+
+  .case:hover h3 {
+    color: rgba(232,234,240,1);
+  }
+}
+@media (hover: hover) {
+  .case a:hover,
+  .tile a:hover,
+  .contact-card a:hover {
+    color: var(--accent);
+  }
+}
+@media (hover: none) {
+  .tile,
+  .case,
+  .step,
+  .card,
+  .contact-card {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+}
