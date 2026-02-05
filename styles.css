@@ -395,7 +395,8 @@ head {
 .tags {
   display: flex;
   gap: 8px;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  padding: 10px 0;
 }
 
 .tag {
@@ -778,9 +779,6 @@ head {
     filter: contrast(0.95);
   }
 
-  .tags {
-    padding: 10px 0px;
-  }
 
   .hero__actions {
     display: flex;
